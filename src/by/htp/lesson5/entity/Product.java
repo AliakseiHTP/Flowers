@@ -14,7 +14,7 @@ public class Product{
 	}
 	
 	public double getTotalPrice() {
-		return sp.getPrice() + acc1.getPrice() + acc2.getPrice();
+		return sp.getPrice() + acc1.getPrice() + acc2.getPrice() + acc3.getPrice();
 	}
 	
 	public double getPriceOfSmartphone() {
